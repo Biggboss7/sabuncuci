@@ -1,0 +1,88 @@
+html {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: .5rem;
+}
+
+ul {
+    padding: 0;
+}
+
+header {
+    height: 30vh;
+    margin-bottom: 4rem;
+    position: relative;
+    background-image: url("jumbotron.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: orangered;
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.price {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1rem;
+    color: red;
+}
+
+small {
+    margin: 0 auto;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    color: orange;
+}
+
+li {
+    margin-bottom: 1rem;
+    padding: 1rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 0.5rem;
+}
+
+img[alt="dirty-plate"] {
+    width: 15%;
+    margin-bottom: .5rem;
+}
+
+img[alt="mushroom"] {
+    width: 15%;
+    margin-bottom: .5rem;
+}
+
+i.fa-solid.fa-shower,
+i.fa-solid.fa-chair {
+    font-size: 2.3rem;
+    display: block;
+    margin-bottom: .5rem;
+}
+
+i.fa-regular.fa-mushroom {}
