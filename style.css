@@ -10,7 +10,7 @@ body {
 }
 
 ul {
-    padding: 0;
+    padding: 0rem;
 }
 
 header {
@@ -32,14 +32,18 @@ h1 {
     color: orangered;
 }
 
-h2 {
+.features {
+    margin-bottom: 4rem;
+}
+
+.features__heading {
     margin-top: 0;
     text-align: center;
 }
 
 .price {
     position: absolute;
-    top: 60%;
+    top: 20vh;
     left: 20%;
     font-family: 'Permanent Marker', cursive;
     font-size: 1rem;
@@ -85,4 +89,22 @@ i.fa-solid.fa-chair {
     margin-bottom: .5rem;
 }
 
-i.fa-regular.fa-mushroom {}
+.guarantee__heading {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.video__lists {
+    padding: 1.5rem;
+    background-color: #222;
+}
+
+.video {
+    text-align: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    height: 680px;
+}

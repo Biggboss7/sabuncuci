@@ -5,15 +5,20 @@
     <!-- Website Data Info -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- CSS Link -->
     <link rel="stylesheet" href="style.css">
-    <!-- Javascript Link -->
-    <script src="script.js" defer></script>
     <!-- Fontstyle -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@400;500&display=swap"
         rel="stylesheet">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/6a01cfb0d2.js" crossorigin="anonymous"></script>
     <!-- Website Title -->
@@ -32,7 +37,7 @@
     <main>
         <section class="features">
             <small>Sabun Berkualitas</small>
-            <h2>Gosok Sekali <br> Noda Langsung Hilang</h2>
+            <h2 class="features__heading">Gosok Sekali <br> Noda Langsung Hilang</h2>
             <ul>
                 <li>
                     <img src="dirty-plate.png" alt="dirty-plate">
@@ -52,6 +57,47 @@
                 </li>
             </ul>
         </section>
+        <section class="video__lists">
+            <small>Dijamin Bersih</small>
+            <h2 class="guarantee__heading">Garansi Kualitas <br>100%</h2>
+            <div id="carouselVideoControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <video src="video1.mp4" class="d-block w-100" controls></video>
+                    </div>
+                    <div class="carousel-item">
+                        <video src="video2.mp4" class="d-block w-100" controls></video>
+                    </div>
+                    <div class="carousel-item">
+                        <video src="video3.mp4" class="d-block w-100" controls></video>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselVideoControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselVideoControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section>
+
+        </section>
+
+        <!-- <h2 class="guarantee__heading">Garansi Kualitas <br>100%</h2>
+            <div class="video">
+                <video src="video1.mp4" controls></video>
+            </div>
+            <div class="video">
+                <video src="video2.mp4" controls></video>
+            </div>
+            <div class="video">
+                <video src="video3.mp4" controls></video>
+            </div> -->
     </main>
     <footer>
         Hub. Amin 085358087691
